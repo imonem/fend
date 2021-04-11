@@ -5,12 +5,13 @@ function checkForName(inputText) {
         "Janeway",
         "Kirk",
         "Archer",
-        "Georgiou"
-    ]
+        "Georgiou",
+        "imonem"
+    ];
 
     if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
+        console.log("Welcome, Captain!");
     }
 }
 
-export { checkForName }
+export { checkForName };
